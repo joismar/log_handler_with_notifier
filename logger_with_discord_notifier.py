@@ -1,7 +1,7 @@
 from logging import ERROR
-from .logger_with_notifier import NotifierHandler
-from .discord_notifier import DiscordNotifier
-from .logger import Logger
+from logger_with_notifier import NotifierHandler
+from discord_notifier import DiscordNotifier
+from logger import Logger
 
 
 class LoggerWithDiscordNotifier(Logger):
